@@ -96,16 +96,23 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
-
+``` 
+ HAL_TIM_Base_Start(&htim2);
+  HAL_TIM_PWM_Init(&htim2);
+  HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+```
 
 
 
 
 ## Output screen shots of proteus  :
- 
- 
+![Screenshot 2024-11-15 141003](https://github.com/user-attachments/assets/59ba43c2-bd6f-4c69-a4a3-eb5db0d284df)
+![Screenshot 2024-11-15 142421](https://github.com/user-attachments/assets/697d4e29-acb3-4e07-a00c-b08b7353d76a)
+![Screenshot 2024-11-15 142506](https://github.com/user-attachments/assets/b8bfdd8a-b419-466f-bbb7-519000785175)
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![Screenshot 2024-11-15 143343](https://github.com/user-attachments/assets/c261ccdc-4323-4dec-9f22-501fdc1d2de1)
+
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
